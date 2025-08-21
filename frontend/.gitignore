@@ -1,0 +1,17 @@
+cat << 'EOF' > .gitignore
+# Node.js & React
+node_modules/
+dist/
+.env
+.vscode/
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production
+build/
+EOF
+
